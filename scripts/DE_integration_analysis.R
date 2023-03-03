@@ -252,7 +252,7 @@ Gene_miRNA_integration_PPI_miRNA_rows <- Gene_miRNA_integration_PPI %>%
   mutate(gene_DE = ifelse(log2FC_gene_target >= 1, "up", "down")) %>% 
   distinct()
 
-writexl::write_xlsx(Gene_miRNA_integration_PPI_miRNA_rows,"integration data/Gene_miRNA_PPI_direct.xlsx")
+writexl::write_xlsx(Gene_miRNA_integration_PPI_miRNA_rows,"Data/Gene_miRNA_PPI_direct.xlsx")
 
 # only significant and with miRNA of interest 
 Gene_miRNA_interest_integration_PPI_miRNA_significant <- Gene_miRNA_integration_PPI_miRNA_rows %>%
