@@ -9,16 +9,15 @@ rownames(raw_counts) <- rownames
 
 # miRNA data
 library(readxl)
-miRNA_stats <- read_excel("miRNA data/DE_miRNA.xlsx")
+miRNA_stats <- read_excel("Data/DE_miRNA.xlsx")
 
 # proteomics data
 library(readxl)
-proteins_stats <- read_excel("proteomics data/DE_proteomics.xlsx", 
-                                                    sheet = "Volcano LFQ intensity")
+proteins_stats <- read_excel("Data/DE_proteomics.xlsx", sheet = "Volcano LFQ intensity")
 
 # Integration datasets
 # -> mirTarBase
-mirTarBase_PPI_top10 <- read_excel("miRNA data/mirTarBase_PPI_top10.xlsx")
+mirTarBase_PPI_top10 <- read_excel("Data/mirTarBase_PPI_top10.xlsx")
 
 # -> TargetScan
-TargetScan_PPI_top10 <- read_excel("miRNA data/TargetScan_PPI_top10.xlsx")
+TargetScan_PPI_top10 <- read_excel("Data/TargetScan_PPI_top10.xlsx")
