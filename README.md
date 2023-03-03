@@ -8,7 +8,7 @@ In detail, here is reproduced the necessary steps to perform differential expres
 
 ## Usage 
 
-In the `Data/` folder you can find output files from the differential expression analysis and multi-omics integration.
+In the `Data/` folder you can find output files from the multi-omics integration using WPPI package and miRNA target databases. 
 To access the raw and more details on the datasets, please check the manuscript.
 
 This project was conducted in [R software](https://www.r-project.org). 
