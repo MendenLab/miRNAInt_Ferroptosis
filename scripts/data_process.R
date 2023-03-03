@@ -9,11 +9,11 @@ rownames(raw_counts) <- rownames
 
 # miRNA data
 library(readxl)
-miRNA_stats <- read_excel("Data/DE_miRNA.xlsx")
+miRNA_stats <- read_excel("miRNA data/DE_miRNA.xlsx")
 
 # proteomics data
 library(readxl)
-proteins_stats <- read_excel("Data/DE_proteomics.xlsx", sheet = "Volcano LFQ intensity")
+proteins_stats <- read_excel("proteomics data/DE_proteomics.xlsx", sheet = "Volcano LFQ intensity")
 
 # Integration datasets
 # -> mirTarBase
