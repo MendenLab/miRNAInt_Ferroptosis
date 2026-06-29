@@ -2,7 +2,7 @@
 
 ## Description
 
-In this repository is presented R scripts to reproduce the bioinformatic anaysis in manuscript [LINK when available]. 
+In this repository is presented R scripts to reproduce the bioinformatic anaysis in manuscript ["MiR-940 Suppresses Ferroptosis by Controlling Expression of Key Regulatory Genes"](https://doi.org/10.1002/advs.75830). 
 
 In detail, here is reproduced the necessary steps to perform differential expression analysis of RNA-Seq data using the Bioconductor package [DESeq2](http://bioconductor.org/packages/release/bioc/html/DESeq2.html) and integration analysis of miRNA, gene and proteomics data using [WPPI package](https://github.com/AnaGalhoz37/wppi) and miRNA target databases [mirTarBase](https://doi.org/10.1093/nar/gkab1079) and [TargetScan](10.1126/science.aav1741). 
 
